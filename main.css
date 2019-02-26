@@ -1,0 +1,154 @@
+﻿@import url("layout.css");
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	background-color: #f2f2f7;
+	background-image: url("../images/background.gif");
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+#container {
+	width: 700px;
+	margin: 10px auto;
+}
+#masthead {
+	background-position: left;
+	text-align: center;
+	width: 700px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #808080;
+	border-left: 1px solid #a9a9a9;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	height: 115px;
+	background-size: 700px 115px;
+	background-image: url('../images/Orange_County_CA.jpeg');
+}
+#navigation {
+	position: relative;
+	float: left;
+	width: 135px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #808080;
+	border-left: 1px solid #a9a9a9;
+	background-color: #FFFFFF;
+}
+#content {
+	float: left;
+	width: 540px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #808080;
+	border-left: 1px solid #a9a9a9;
+	background-color: #fff;
+	background-image: url(../images/Orange_County_Welcome_Sign.png);
+	background-size: 540px 357px;
+	font-weight: normal;
+}
+#footer {
+	text-align: center;
+	clear: both;
+	width: 698px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #808080;
+	border-left: 1px solid #a9a9a9;
+	background-color: #fefeff;
+}
+/* Masthead Styles */
+#masthead h1 {
+	color: #3d6c87;
+
+}
+#masthead h2 {
+	color: #FFFFFF;
+}
+
+#masthead h3 {
+	color: #5f8ea9;
+}
+/* Navigation Styles */
+#navigation ul {
+	list-style-type: none;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#navigation li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #fff;
+	background-color: #FFFFFF;
+}
+#navigation a {
+	background-color: #FFFFFF;
+	color: #3d6c87;
+	border: 1px solid #fff;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+}
+#navigation a:hover {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #5f8ea9;
+	background-color: #5f8ea9;
+}
+/* Content Styles */
+h3 {
+	color: #3d6c87;
+	font-size: x-large;
+}
+#content2 img {
+	padding: 3px;
+	border: 0px none #808080;
+}
+/* Footer Styles */
+#footer p {
+	color: #808080;
+	margin-top: 5px;
+}
+#footer a {
+	color: #5f8ea9;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #33627d;
+	text-decoration: underline overline;
+}
+a {
+	color: #5f8ea9;
+	text-decoration: underline;
+}
+a:hover {
+	color: #33627d;
+	text-decoration: underline;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
+#content img {
+	border: 0px solid #486D81;
+	padding: 3px;
+}
+.dtstyle1 {
+	font-weight: bold;
+	color: #396B9C;
+}
